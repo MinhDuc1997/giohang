@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: Myriad Pro;
+}
+
+main{
+	position: absolute;
+	width: 830px;
+	height: 480px;
+	margin-top: 81px;
+	margin-left: 20%;
+	background-image: url('../img/Noise.png');
+}
+
+.main{
+	position: initial;
+	width: 670px;
+	height: 318px;
+	margin-top: 81px;
+	margin-left: 80px;
+	border-radius: 5px;
+	background-color: #51535b;
+	overflow: hidden;
+}
+
+.title{
+	position: initial;
+	width: 100%;
+	height: 39px;
+	background-image: url('../img/Title_light.png');
+}
+
+.title img, p, .bg{
+	float: left;
+	color: #b7b8b4;
+	font-size: 15px;
+	margin-top: 0px;
+	font-weight: 600;
+	margin-top: 12px;
+
+}
+
+.title img{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+/*.title .bg{
+	position: initial;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}*/
+
+.sub-title{
+	position: initial;
+	width: 670px;
+	height: 31px;
+	background-color: #383b42;
+	border-top: 2px solid #2e3036;
+}
+
+.product1{
+	position: initial;
+	width: 100%;
+	height: 70px;
+	background-color: #383b42;
+	border-top: 1px solid #2e3036;
+}
+
+.product2{
+	position: initial;
+	width: 100%;
+	height: 70px;
+	background-color: #3e4148;
+	border-top: 1px solid #2e3036;
+}
+
+.total{
+	position: initial;
+	width: 100%;
+	height: 63px;
+	background-color: #383b42;
+	border-top: 1px solid #2e3036;
+}
+
+.check{
+	position: initial;
+	width: 100%;
+	height: 45px;
+	background-color: #383b42;
+	border-top: 2px solid #2e3036;
+}
+
+.in{
+	float: left;
+}
+
+.sub-title p{
+	display: block;
+	color: #999a9b;
+	margin-top: 8px;
+	margin-left: 10px; 
+}
+
+.sub-title .tab1{
+	position: initial;
+	width: 40px;
+	height: 100%;
+}
+
+.sub-title .tab2{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.sub-title .tab3{
+	position: initial;
+	width: 170px;
+	height: 100%;
+}
+
+.sub-title .tab4{
+	position: initial;
+	width: 80px;
+	height: 100%;
+}
+
+.sub-title .tab5{
+	position: initial;
+	width: 150px;
+	height: 100%;
+}
+
+.sub-title .tab6{
+	position: initial;
+	width: 90px;
+	height: 100%;
+}
+
+.sub-title .tab7{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.product1 p{
+	color: #999a9b;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.product1 .tab1{
+	position: initial;
+	width: 40px;
+	height: 100%;
+}
+
+.product1 .tab2{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.product1 .tab3{
+	position: initial;
+	width: 170px;
+	height: 100%;
+}
+
+.product1 .tab4{
+	position: initial;
+	width: 80px;
+	height: 100%;
+}
+
+.product1 .tab5{
+	position: initial;
+	width: 150px;
+	height: 100%;
+}
+
+.product1 .tab6{
+	position: initial;
+	width: 90px;
+	height: 100%;
+}
+
+.product1 .tab7{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.product1 img{
+	display: block;
+	margin-top: 10px;
+}
+
+.product2 img{
+	display: block;
+	margin-top: 10px;
+}
+
+.product2 p{
+	color: #999a9b;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.product2 .tab1{
+	position: initial;
+	width: 40px;
+	height: 100%;
+}
+
+.product2 .tab2{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.product2 .tab3{
+	position: initial;
+	width: 170px;
+	height: 100%;
+}
+
+.product2 .tab4{
+	position: initial;
+	width: 80px;
+	height: 100%;
+}
+
+.product2 .tab5{
+	position: initial;
+	width: 150px;
+	height: 100%;
+}
+
+.product2 .tab6{
+	position: initial;
+	width: 90px;
+	height: 100%;
+}
+
+.product2 .tab7{
+	position: initial;
+	width: 70px;
+	height: 100%;
+}
+
+.tab1 img{
+	display: block;
+	margin-left: 16px;
+	margin-top: 31px;
+}
+
+.tab5 .button{
+	width: 41px;
+	height: 25px;
+	border: 1px solid #2e3036;
+	margin-top: 25px;
+}
+
+.tab5 input{
+	position: inherit;
+	width: 27px;
+	height: 100%;
+	border: none;
+	color: #999a9b;
+	text-align: center;
+	background-color: #383b42;
+}
+
+.tab5 button{
+	position: inherit;
+	float: right;
+	width: 12px;
+	height: 14px;
+	font-size: 7px;
+	border: none;
+	border-bottom: #383b42;
+	color: #383b42;
+	background-color: #63666e;
+}
+
+.tab5 .bt2{
+	position: initial;
+	display: block;
+	margin-top: -13px;
+}
+
+.total .to1,.to2{
+	float: left;
+}
+
+.total .to1{
+	position: inherit;
+	width: 520px;
+	height: 100%;
+}
+
+.to2{
+	position: inherit;
+	width: 145px;
+	height: 100%;
+}
+
+.to2 p{
+	display: block;
+	color: #999a9b;
+	line-height: 0.5;
+	float: left;
+	margin-left: 25px;
+}
+
+.to2 #text1{
+	display: block;
+	margin-top: 19px;
+}
+
+.to2 #text2{
+	display: block;
+	margin-left: 58px;
+}
+
+.check img,p{
+	float: left;
+}
+
+
+.check .che1,.che2{
+	float: left;
+}
+
+.che1 img{
+	display: block;
+	margin-left: 21px;
+	margin-top: 12px;
+}
+
+.che1 p{
+	display: block;
+	margin-left: 5px;
+	margin-top: 12px;
+}
+
+.che2 img{
+	display: block;
+	width: 101px;
+	height: 28x;
+	margin-left: 37px;
+	margin-top: 2.5px;
+}
+
+.check .che1{
+	position: initial;
+	width: 520px;
+	height: 100%;
+}
+
+.check .che2{
+	position: initial;
+	width: 145px;
+	height: 100%;
+}
+
+.check p{
+	color: #e4e4e4;
+}

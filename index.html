@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<title>Kiem Tra</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src="js/js.js"></script>
+</head>
+
+<body>
+<main>
+	<div class="main">
+		<div class="title">
+			<img src="img/cart.png">
+			<p>My Shopping Cart</p>
+		</div>
+		<div class="sub-title">
+			<div class="tab1 in"></div>
+			<div class="tab2 in"><p>image</p></div>
+			<div class="tab3 in"><p>Product Name</p></div>
+			<div class="tab4 in"><p>Model</p></div>
+			<div class="tab5 in"><p>Quantity</p></div>
+			<div class="tab6 in"><p>Unit Price</p></div>
+			<div class="tab7 in"><p>Total</p></div>
+		</div>
+		<div class="product1">
+			<div class="tab1 in">
+				<img name="img1" onclick="hide_(this)" src="img/x.png">
+			</div>
+			<div class="tab2 in">
+				<img src="img/pic.png">
+			</div>
+			<div class="tab3 in"><p>HTC One X</p></div>
+			<div class="tab4 in">
+				<p>RU445X</p>
+			</div>
+			<div class="tab5 in">
+				<div class="button">
+					<input id="input" type="" name="" value="1">
+					<button onclick="tang1(this)">+</button><br>
+					<button onclick="giam1(this)" class="bt2">-</button>
+				</div>
+			</div>
+				
+			<div class="tab6 in"><p>$ 550</p></div>
+			<div class="tab7 in"><p class="total1">$ 550</p></div>
+		</div>
+
+		<div class="product2">
+			<div class="tab1 in">
+				<img name="img2" onclick="hide_(this)" src="img/x.png">
+			</div>
+			<div class="tab2 in">
+				<img src="img/pic_box.png">
+			</div>
+			<div class="tab3 in"><p>  HTC One X Flip Case</p></div>
+			<div class="tab4 in">
+				<p>RU469D</p>
+			</div>
+			<div class="tab5 in">
+				<div class="button">
+					<input id="input_" type="" name="" value="2">
+					<button onclick="tang2(this)">+</button><br>
+					<button onclick="giam2(this)" class="bt2">-</button>
+				</div>
+			</div>
+				
+			<div class="tab6 in"><p>$ 10</p></div>
+			<div class="tab7 in"><p class="total2">$ 10</p></div>
+		</div>
+		<div class="total">
+			<div class="to1"></div>
+			<div class="to2">
+				<p id="text1">Sub -Total: <span id="subtotal"> $ 560</span></p>
+				<p id="text2">Total: <span id="alltotal"> $ 560</span></p>
+			</div>
+		</div>
+
+		<div class="check">
+			<div class="che1">
+				<img src="img/back.png">
+				<p>Continue Shopping</p>
+			</div>
+			<div class="che2">
+				<img src="img/conti.png">
+			</div>
+		</div>
+	</div>
+</main>
+</body>
+</html>
